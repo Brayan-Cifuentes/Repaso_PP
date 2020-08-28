@@ -18,6 +18,10 @@ public class Home extends javax.swing.JFrame {
         initComponents();
     }
 
+    public static String Base_de_Datos = "jdbc:mysql://localhost/repaso";
+    public static String Usuario = "root";
+    public static String Clave= "admin";
+    
     private Empleado Empleado;
     private Puestos Puesto;
     
